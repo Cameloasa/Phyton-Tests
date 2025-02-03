@@ -63,4 +63,39 @@ def print_value_interval(start, end):
 
 print_value_interval(8,16)
 #1f. w == 32 or w == 64 or w == 128
+print("Uppgift 1-f------------")
+def verify_and_print(w):
+    if w == 32:
+        print(f"{w} is equal with 32")
+    elif w == 64:
+        print(f"{w} is equal with 64")
+    elif w == 128:
+        print(f"{w} is equal with 128")
+    else:
+        print("This number is not equal with 32, 64, or 128")
+
+verify_and_print(32)
+verify_and_print(33)
+verify_and_print(64)
+verify_and_print(65)
+verify_and_print(128)
+verify_and_print(130)
+
 #1g. if x < 5: … elif x < 10: … elif x < 15: … else
+def compare_and_print(x):
+    if x < 5:
+        for value in range(1, x + 1):
+            print(value)
+    elif x < 10:
+        for value in range(5, x + 1):
+            print(value)
+    elif x < 15:
+        for value in range(10, x + 1):
+            print(value)
+    else:
+        print("Out of range")
+
+compare_and_print(3)
+compare_and_print(7)
+compare_and_print(12)
+compare_and_print(16)
