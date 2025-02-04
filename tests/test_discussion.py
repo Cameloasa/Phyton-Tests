@@ -1,5 +1,5 @@
 from src.discussion import bigger_than_100, number_equal_with_42, calculate_length, is_true, compare_and_return, \
-    sum_list, count_vowels
+    sum_list, count_vowels, find_max, find_2nd_max
 
 
 #1a
@@ -133,3 +133,20 @@ def test_mixed_letters():
 def test_case_insensitive():
     assert count_vowels("AeIoU") == 5
     assert count_vowels("PYTHON") == 2
+
+#4
+def test_find_max():
+    assert find_max([1, 2, 3, 4, 5]) == 5
+    assert find_max([10, 99, 32, 47]) == 99
+    assert find_max([-5, -2, -9, -1]) == -1
+    assert find_max([42]) == 42
+    assert find_max([]) == None
+
+#5
+def test_find_2nd_max():
+    assert find_2nd_max([1, 2, 3, 4, 5]) == 4
+    assert find_2nd_max([10, 99, 32, 47]) == 47
+    assert find_2nd_max([7, 7, 7, 7]) == 7
+    assert find_2nd_max([-5, -2, -9, -1]) == -2
+    assert find_2nd_max([42]) == None
+    assert find_2nd_max([]) == None

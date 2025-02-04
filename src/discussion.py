@@ -108,4 +108,15 @@ def count_vowels(word: str) -> int:
 # Returnerar None om det inte finns något
 
 def find_max(numbers):
+    if not numbers:
+        return None
+    return max(numbers)
+
+#5 Winner takes it all brukar det ju heta, men nu ska vi försöka ge lite heder åt alla andrapristagare. Formulera testfall för en funktion som hittar näst största talet i en lista!
+# Returnerar det nästa största talet i listan
+# Returnerar None om det inte finns något
+# Om det är delad förstaplats så returneras det talet
+def find_2nd_max(list):
     return None
+
+
