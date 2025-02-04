@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="853eb3b7-2178-49f9-b5cb-a364ddd78bf0" name="Changes" comment="test_number">
+    <list default="true" id="853eb3b7-2178-49f9-b5cb-a364ddd78bf0" name="Changes" comment="test_number_list">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/discussion.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/discussion.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/test_discussion.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_discussion.py" afterDir="false" />
@@ -48,6 +48,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python tests.pytest for test_discussion.test_bigger_than_100.executor": "Run",
+    "Python tests.pytest for test_discussion.test_case_insensitive.executor": "Run",
     "Python tests.pytest for test_discussion.test_empty_list.executor": "Run",
     "Python tests.pytest for test_discussion.test_is_true_with_true.executor": "Run",
     "Python tests.pytest for test_discussion.test_length_empty_string.executor": "Run",
@@ -58,7 +59,11 @@
     "Python tests.pytest for test_discussion.test_less_than_10.executor": "Run",
     "Python tests.pytest for test_discussion.test_less_than_15.executor": "Run",
     "Python tests.pytest for test_discussion.test_less_than_5.executor": "Run",
+    "Python tests.pytest for test_discussion.test_mixed_letters.executor": "Run",
+    "Python tests.pytest for test_discussion.test_no_vowels.executor": "Run",
     "Python tests.pytest for test_discussion.test_number_equal_with_42.executor": "Run",
+    "Python tests.pytest for test_discussion.test_number_list.executor": "Run",
+    "Python tests.pytest for test_discussion.test_only_vowels.executor": "Run",
     "Python tests.pytest for test_discussion.test_out_of_range.executor": "Run",
     "Python tests.pytest for test_discussion.test_with_0.executor": "Run",
     "Python tests.pytest for test_discussion.test_with_1.executor": "Run",
@@ -74,7 +79,7 @@
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Python tests.pytest for test_discussion.test_empty_list">
+  <component name="RunManager" selected="Python tests.pytest for test_discussion.test_case_insensitive">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="pythonTDDProject" />
       <option name="ENV_FILES" value="" />
@@ -97,7 +102,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_discussion.test_empty_list" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_discussion.test_case_insensitive" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="pythonTDDProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -110,11 +115,11 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_discussion.test_empty_list&quot;" />
+      <option name="_new_target" value="&quot;test_discussion.test_case_insensitive&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_discussion.test_with_0" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_discussion.test_mixed_letters" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="pythonTDDProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -127,11 +132,11 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_discussion.test_with_0&quot;" />
+      <option name="_new_target" value="&quot;test_discussion.test_mixed_letters&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_discussion.test_with_1" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_discussion.test_no_vowels" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="pythonTDDProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -144,11 +149,11 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_discussion.test_with_1&quot;" />
+      <option name="_new_target" value="&quot;test_discussion.test_no_vowels&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_discussion.test_with_4" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_discussion.test_number_list" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="pythonTDDProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -161,11 +166,11 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_discussion.test_with_4&quot;" />
+      <option name="_new_target" value="&quot;test_discussion.test_number_list&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_discussion.test_with_negative" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_discussion.test_only_vowels" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="pythonTDDProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -178,17 +183,17 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_discussion.test_with_negative&quot;" />
+      <option name="_new_target" value="&quot;test_discussion.test_only_vowels&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest for test_discussion.test_empty_list" />
-        <item itemvalue="Python tests.pytest for test_discussion.test_with_negative" />
-        <item itemvalue="Python tests.pytest for test_discussion.test_with_4" />
-        <item itemvalue="Python tests.pytest for test_discussion.test_with_0" />
-        <item itemvalue="Python tests.pytest for test_discussion.test_with_1" />
+        <item itemvalue="Python tests.pytest for test_discussion.test_case_insensitive" />
+        <item itemvalue="Python tests.pytest for test_discussion.test_mixed_letters" />
+        <item itemvalue="Python tests.pytest for test_discussion.test_only_vowels" />
+        <item itemvalue="Python tests.pytest for test_discussion.test_no_vowels" />
+        <item itemvalue="Python tests.pytest for test_discussion.test_number_list" />
       </list>
     </recent_temporary>
   </component>
@@ -224,13 +229,22 @@
       <option name="project" value="LOCAL" />
       <updated>1738669109922</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="test_number_list">
+      <option name="closed" value="true" />
+      <created>1738691761614</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1738691761614</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test_discussion" />
     <MESSAGE value="test_number" />
-    <option name="LAST_COMMIT_MESSAGE" value="test_number" />
+    <MESSAGE value="test_number_list" />
+    <option name="LAST_COMMIT_MESSAGE" value="test_number_list" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -239,6 +253,11 @@
           <url>file://$PROJECT_DIR$/main.py</url>
           <line>8</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/test_discussion.py</url>
+          <line>127</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

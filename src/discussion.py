@@ -96,3 +96,16 @@ print(compare_and_return(-1))
 # Returnerar summan av alla tal i listan
 def sum_list(numbers: list) -> int:
     return sum(numbers)
+
+#3a Diskutera följande kod.
+# Räcker det med ett testfall för att testa funktionen?
+def count_vowels(word: str) -> int:
+    vowels = "aeiouyåäöAEIOUYÅÄÖ"
+    return sum(1 for char in word if char in vowels)
+
+#4 Formulera testfall för en funktion som hittar största talet i en lista.
+# Returnerar det största talet i listan
+# Returnerar None om det inte finns något
+
+def find_max(numbers):
+    return None

@@ -1,5 +1,5 @@
 from src.discussion import bigger_than_100, number_equal_with_42, calculate_length, is_true, compare_and_return, \
-    sum_list
+    sum_list, count_vowels
 
 
 #1a
@@ -66,7 +66,7 @@ def test_is_true_with_true():
 def test_is_true_with_false():
     assert is_true(False) == False
 
-#1e
+#1g
 def test_less_than_5():
     assert compare_and_return(3) == [1, 2, 3]
 
@@ -102,8 +102,34 @@ def test_empty_list():
     actual = sum_list([])
     assert expected == actual
 
+#2
 def test_number_list():
     assert sum_list([5]) == 5
     assert sum_list([1, 2, 3]) == 6
     assert sum_list([-1, 1, 0]) == 0
     assert sum_list([10, 20, 30]) == 60
+
+#3a
+def test_no_vowels():
+    expected = 0
+    actual = count_vowels("qwrt")
+    assert expected == actual
+
+    assert count_vowels("Tt") == 0
+    assert count_vowels("123 123") == 0
+    assert count_vowels("") == 0
+
+def test_only_vowels():
+    assert count_vowels("aeio") == 4
+    assert count_vowels("ouyåäö") == 6
+    assert count_vowels("öAE") == 3
+    assert count_vowels("a") == 1
+
+def test_mixed_letters():
+    assert count_vowels("hello") == 2
+    assert count_vowels("PyCharm") == 2
+    assert count_vowels("automation") == 6
+
+def test_case_insensitive():
+    assert count_vowels("AeIoU") == 5
+    assert count_vowels("PYTHON") == 2
