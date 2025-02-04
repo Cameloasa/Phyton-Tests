@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="853eb3b7-2178-49f9-b5cb-a364ddd78bf0" name="Changes" comment="test_discussion">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/pythonTDDProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pythonTDDProject.iml" afterDir="false" />
+    <list default="true" id="853eb3b7-2178-49f9-b5cb-a364ddd78bf0" name="Changes" comment="test_number">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/discussion.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/discussion.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/test_discussion.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_discussion.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +48,23 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python tests.pytest for test_discussion.test_bigger_than_100.executor": "Run",
+    "Python tests.pytest for test_discussion.test_empty_list.executor": "Run",
+    "Python tests.pytest for test_discussion.test_is_true_with_true.executor": "Run",
+    "Python tests.pytest for test_discussion.test_length_empty_string.executor": "Run",
+    "Python tests.pytest for test_discussion.test_length_equal_to_5.executor": "Run",
+    "Python tests.pytest for test_discussion.test_length_greater_than_5.executor": "Run",
+    "Python tests.pytest for test_discussion.test_length_less_than_5.executor": "Run",
+    "Python tests.pytest for test_discussion.test_length_with_spaces.executor": "Run",
+    "Python tests.pytest for test_discussion.test_less_than_10.executor": "Run",
+    "Python tests.pytest for test_discussion.test_less_than_15.executor": "Run",
+    "Python tests.pytest for test_discussion.test_less_than_5.executor": "Run",
     "Python tests.pytest for test_discussion.test_number_equal_with_42.executor": "Run",
+    "Python tests.pytest for test_discussion.test_out_of_range.executor": "Run",
+    "Python tests.pytest for test_discussion.test_with_0.executor": "Run",
+    "Python tests.pytest for test_discussion.test_with_1.executor": "Run",
+    "Python tests.pytest for test_discussion.test_with_4.executor": "Run",
+    "Python tests.pytest for test_discussion.test_with_negative.executor": "Run",
+    "Python tests.pytest in test_discussion.py.executor": "Run",
     "Python.discussion.executor": "Run",
     "Python.main.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -59,7 +74,7 @@
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Python tests.pytest for test_discussion.test_number_equal_with_42">
+  <component name="RunManager" selected="Python tests.pytest for test_discussion.test_empty_list">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="pythonTDDProject" />
       <option name="ENV_FILES" value="" />
@@ -82,7 +97,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_discussion.test_bigger_than_100" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_discussion.test_empty_list" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="pythonTDDProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -95,11 +110,11 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_discussion.test_bigger_than_100&quot;" />
+      <option name="_new_target" value="&quot;test_discussion.test_empty_list&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_discussion.test_number_equal_with_42" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_discussion.test_with_0" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="pythonTDDProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -112,14 +127,68 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_discussion.test_number_equal_with_42&quot;" />
+      <option name="_new_target" value="&quot;test_discussion.test_with_0&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_discussion.test_with_1" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="pythonTDDProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_discussion.test_with_1&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_discussion.test_with_4" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="pythonTDDProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_discussion.test_with_4&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_discussion.test_with_negative" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="pythonTDDProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_discussion.test_with_negative&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest for test_discussion.test_number_equal_with_42" />
-        <item itemvalue="Python tests.pytest for test_discussion.test_bigger_than_100" />
+        <item itemvalue="Python tests.pytest for test_discussion.test_empty_list" />
+        <item itemvalue="Python tests.pytest for test_discussion.test_with_negative" />
+        <item itemvalue="Python tests.pytest for test_discussion.test_with_4" />
+        <item itemvalue="Python tests.pytest for test_discussion.test_with_0" />
+        <item itemvalue="Python tests.pytest for test_discussion.test_with_1" />
       </list>
     </recent_temporary>
   </component>
@@ -147,12 +216,21 @@
       <option name="project" value="LOCAL" />
       <updated>1738665817542</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="test_number">
+      <option name="closed" value="true" />
+      <created>1738669109922</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1738669109922</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test_discussion" />
-    <option name="LAST_COMMIT_MESSAGE" value="test_discussion" />
+    <MESSAGE value="test_number" />
+    <option name="LAST_COMMIT_MESSAGE" value="test_number" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

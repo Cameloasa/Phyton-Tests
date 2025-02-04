@@ -79,7 +79,20 @@ def compare_and_return(x: int) -> list[int]:
         return list(range(10, x + 1))
     return ["Out of range"]
 
+print(compare_and_return(3))
+print(compare_and_return(7))
+print(compare_and_return(12))
+print(compare_and_return(15))
+print(compare_and_return(0))
+print(compare_and_return(1))
 print(compare_and_return(4))
-print(compare_and_return(11))
+print(compare_and_return(9))
 print(compare_and_return(14))
-print(compare_and_return(16))
+print(compare_and_return(15))
+print(compare_and_return(-1))
+
+#2 Det har smugit sig in kommentarer i stället för kod på några ställen.
+# Skriv färdigt testfallen test_empty_list och test_number_list.
+# Returnerar summan av alla tal i listan
+def sum_list(numbers: list) -> int:
+    return sum(numbers)
