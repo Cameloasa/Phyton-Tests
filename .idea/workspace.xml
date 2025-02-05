@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="853eb3b7-2178-49f9-b5cb-a364ddd78bf0" name="Changes" comment="test_find_2nd_max">
+      <change afterPath="$PROJECT_DIR$/src/celsius_to_fahrenheit.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/count_words.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_celsius_to_fahrenheit.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_count_words.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +50,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python tests.pytest for test_celsius_to_fahrenheit.test_c_to_f.executor": "Run",
     "Python tests.pytest for test_discussion.test_bigger_than_100.executor": "Run",
     "Python tests.pytest for test_discussion.test_case_insensitive.executor": "Run",
     "Python tests.pytest for test_discussion.test_empty_list.executor": "Run",
@@ -70,8 +76,9 @@
     "Python tests.pytest for test_discussion.test_with_4.executor": "Run",
     "Python tests.pytest for test_discussion.test_with_negative.executor": "Run",
     "Python tests.pytest in test_discussion.py.executor": "Run",
+    "Python.celsius_to_fahrenheit.executor": "Run",
     "Python.discussion.executor": "Run",
-    "Python.main.executor": "Debug",
+    "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
@@ -79,7 +86,7 @@
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Python tests.pytest for test_discussion.test_find_2nd_max">
+  <component name="RunManager" selected="Python.main">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="pythonTDDProject" />
       <option name="ENV_FILES" value="" />
@@ -100,6 +107,23 @@
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_celsius_to_fahrenheit.test_c_to_f" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="pythonTDDProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_celsius_to_fahrenheit.test_c_to_f&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="pytest for test_discussion.test_case_insensitive" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
@@ -170,30 +194,13 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_discussion.test_only_vowels" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="pythonTDDProject" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_parameters" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_discussion.test_only_vowels&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_celsius_to_fahrenheit.test_c_to_f" />
         <item itemvalue="Python tests.pytest for test_discussion.test_find_2nd_max" />
         <item itemvalue="Python tests.pytest for test_discussion.test_find_max" />
         <item itemvalue="Python tests.pytest for test_discussion.test_case_insensitive" />
         <item itemvalue="Python tests.pytest for test_discussion.test_mixed_letters" />
-        <item itemvalue="Python tests.pytest for test_discussion.test_only_vowels" />
       </list>
     </recent_temporary>
   </component>
@@ -253,7 +260,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738696351498</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="test_find_2nd_max">
+      <option name="closed" value="true" />
+      <created>1738749439121</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1738749439121</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -263,16 +278,5 @@
     <MESSAGE value="test_count_vowels" />
     <MESSAGE value="test_find_2nd_max" />
     <option name="LAST_COMMIT_MESSAGE" value="test_find_2nd_max" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>8</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

@@ -1,16 +1,7 @@
-# This is a sample Python script.
+from src.celsius_to_fahrenheit import c_to_f
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+print("Omvandla Celsius(°C) till Fahrenheit(°F)")
+print(f"-273.15°C == {c_to_f(-273.15)}°F")
+print(f"-274°C == {c_to_f(-274)}°F")
+print(f"-40°C == {c_to_f(-40)}°F")
+print(f"100°C == {c_to_f(100)}°F")
