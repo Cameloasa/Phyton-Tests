@@ -1,3 +1,4 @@
+from src.autocomplete_list import autocomplete_list
 from src.celsius_to_fahrenheit import c_to_f
 from src.count_words import count_words
 from src.find_median import find_median
@@ -33,3 +34,8 @@ print(f"{is_sorted_ascending([3, 1, 2])}, [3, 1, 2]")
 print(f"{is_sorted_ascending([2, 2, 2])}, [2, 2, 2]")
 print(f"{is_sorted_ascending([5, 4, 3, 2, 1])}, [5, 4, 3, 2, 1]")
 print(f"{is_sorted_ascending([-3, -2, -1, 0, 1])}, [-3, -2, -1, 0, 1]")
+
+print("5 - Söka efter element i en lista")
+print(autocomplete_list("app", ["apple", "banana", "apricot", "orange"]))
+print(autocomplete_list("ap", ["apple", "banana", "apricot", "orange"]))
+print(autocomplete_list("", ["apple", "banana", "apricot", "orange"]))

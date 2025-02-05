@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="853eb3b7-2178-49f9-b5cb-a364ddd78bf0" name="Changes" comment="is_sorted_ascending" />
+    <list default="true" id="853eb3b7-2178-49f9-b5cb-a364ddd78bf0" name="Changes" comment="workspace">
+      <change afterPath="$PROJECT_DIR$/src/autocomplete_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_autocomplete_list.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,6 +47,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python tests.pytest for test_autocomplete_list.test_autocomplete_list.executor": "Run",
+    "Python tests.pytest for test_autocomplete_list.test_empty_input.executor": "Run",
+    "Python tests.pytest for test_autocomplete_list.test_empty_master_list.executor": "Run",
+    "Python tests.pytest for test_autocomplete_list.test_exact_match.executor": "Run",
+    "Python tests.pytest for test_autocomplete_list.test_partial_match.executor": "Run",
     "Python tests.pytest for test_celsius_to_fahrenheit.test_c_to_f.executor": "Run",
     "Python tests.pytest for test_count_words.test_count_words.executor": "Run",
     "Python tests.pytest for test_discussion.test_bigger_than_100.executor": "Run",
@@ -85,7 +94,7 @@
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python tests.pytest for test_autocomplete_list.test_sensitive_case">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="pythonTDDProject" />
       <option name="ENV_FILES" value="" />
@@ -108,7 +117,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_count_words.test_count_words" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_autocomplete_list.test_empty_input" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="pythonTDDProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -121,11 +130,11 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_count_words.test_count_words&quot;" />
+      <option name="_new_target" value="&quot;test_autocomplete_list.test_empty_input&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_find_median.test_find_median" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_autocomplete_list.test_empty_master_list" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="pythonTDDProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -138,11 +147,11 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_find_median.test_find_median&quot;" />
+      <option name="_new_target" value="&quot;test_autocomplete_list.test_empty_master_list&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_find_median.test_find_median_empty" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_autocomplete_list.test_exact_match" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="pythonTDDProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -155,11 +164,11 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_find_median.test_find_median_empty&quot;" />
+      <option name="_new_target" value="&quot;test_autocomplete_list.test_exact_match&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_find_median.test_find_median_one_number" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_autocomplete_list.test_partial_match" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="pythonTDDProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -172,11 +181,11 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_find_median.test_find_median_one_number&quot;" />
+      <option name="_new_target" value="&quot;test_autocomplete_list.test_partial_match&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_is_sorted_ascending.test_is_sorted_ascending" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_autocomplete_list.test_sensitive_case" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="pythonTDDProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -189,17 +198,17 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_is_sorted_ascending.test_is_sorted_ascending&quot;" />
+      <option name="_new_target" value="&quot;test_autocomplete_list.test_sensitive_case&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest for test_is_sorted_ascending.test_is_sorted_ascending" />
-        <item itemvalue="Python tests.pytest for test_find_median.test_find_median" />
-        <item itemvalue="Python tests.pytest for test_find_median.test_find_median_empty" />
-        <item itemvalue="Python tests.pytest for test_find_median.test_find_median_one_number" />
-        <item itemvalue="Python tests.pytest for test_count_words.test_count_words" />
+        <item itemvalue="Python tests.pytest for test_autocomplete_list.test_sensitive_case" />
+        <item itemvalue="Python tests.pytest for test_autocomplete_list.test_empty_master_list" />
+        <item itemvalue="Python tests.pytest for test_autocomplete_list.test_empty_input" />
+        <item itemvalue="Python tests.pytest for test_autocomplete_list.test_partial_match" />
+        <item itemvalue="Python tests.pytest for test_autocomplete_list.test_exact_match" />
       </list>
     </recent_temporary>
   </component>
@@ -331,7 +340,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738769333946</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="workspace">
+      <option name="closed" value="true" />
+      <created>1738769568034</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1738769568034</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -345,6 +362,7 @@
     <MESSAGE value="count_words in main" />
     <MESSAGE value="find_median" />
     <MESSAGE value="is_sorted_ascending" />
-    <option name="LAST_COMMIT_MESSAGE" value="is_sorted_ascending" />
+    <MESSAGE value="workspace" />
+    <option name="LAST_COMMIT_MESSAGE" value="workspace" />
   </component>
 </project>
