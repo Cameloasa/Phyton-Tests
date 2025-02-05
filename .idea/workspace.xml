@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="853eb3b7-2178-49f9-b5cb-a364ddd78bf0" name="Changes" comment="workspace">
-      <change afterPath="$PROJECT_DIR$/src/autocomplete_list.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_autocomplete_list.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="853eb3b7-2178-49f9-b5cb-a364ddd78bf0" name="Changes" comment="autocomplete_list" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,6 +48,7 @@
     "Python tests.pytest for test_autocomplete_list.test_empty_master_list.executor": "Run",
     "Python tests.pytest for test_autocomplete_list.test_exact_match.executor": "Run",
     "Python tests.pytest for test_autocomplete_list.test_partial_match.executor": "Run",
+    "Python tests.pytest for test_autocomplete_list.test_sensitive_case.executor": "Run",
     "Python tests.pytest for test_celsius_to_fahrenheit.test_c_to_f.executor": "Run",
     "Python tests.pytest for test_count_words.test_count_words.executor": "Run",
     "Python tests.pytest for test_discussion.test_bigger_than_100.executor": "Run",
@@ -94,7 +91,7 @@
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Python tests.pytest for test_autocomplete_list.test_sensitive_case">
+  <component name="RunManager" selected="Python.main">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="pythonTDDProject" />
       <option name="ENV_FILES" value="" />
@@ -348,7 +345,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738769568034</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="autocomplete_list">
+      <option name="closed" value="true" />
+      <created>1738773340421</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1738773340421</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -363,6 +368,7 @@
     <MESSAGE value="find_median" />
     <MESSAGE value="is_sorted_ascending" />
     <MESSAGE value="workspace" />
-    <option name="LAST_COMMIT_MESSAGE" value="workspace" />
+    <MESSAGE value="autocomplete_list" />
+    <option name="LAST_COMMIT_MESSAGE" value="autocomplete_list" />
   </component>
 </project>
