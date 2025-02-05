@@ -1,2 +1,5 @@
 def count_words(sentence: str) -> int:
-    return None
+    words = sentence
+    if words == "" or words == "  ":
+        return 0
+    return len(words)

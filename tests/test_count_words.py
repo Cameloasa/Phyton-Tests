@@ -7,3 +7,9 @@ AK
 ✔ Funktionen ska ignorera mellanslag i början och slutet.
 ✔ Den ska fungera för meningar med ett enda ord eller flera.
 """
+from src.count_words import count_words
+
+
+def test_count_words():
+    assert count_words("") == 0
+    assert count_words("  ") == 0
