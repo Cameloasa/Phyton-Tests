@@ -116,7 +116,16 @@ def find_max(numbers):
 # Returnerar det nästa största talet i listan
 # Returnerar None om det inte finns något
 # Om det är delad förstaplats så returneras det talet
-def find_2nd_max(list):
-    return None
+def find_2nd_max(numbers):
+    if len(numbers) < 2:
+        return None
+
+    unique_numbers = list(set(numbers))
+    unique_numbers.sort(reverse=True)
+
+    if len(unique_numbers) < 2:
+        return unique_numbers[0]
+
+    return unique_numbers[1]
 
 
