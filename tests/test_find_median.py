@@ -11,7 +11,7 @@ from src.find_median import find_median
 """
 
 def test_find_median():
-    assert find_median([]) == None
+    assert find_median([]) is None
     assert find_median([7]) == 7
     assert find_median([3, 1, 2]) == 2
     assert find_median([1, 2, 3, 4]) == 2.5
