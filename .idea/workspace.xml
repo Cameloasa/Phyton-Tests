@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="853eb3b7-2178-49f9-b5cb-a364ddd78bf0" name="Changes" comment="is_sorted_ascending">
-      <change beforePath="$PROJECT_DIR$/src/is_sorted_ascending.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/is_sorted_ascending.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_is_sorted_ascending.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_is_sorted_ascending.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +76,7 @@
     "Python tests.pytest for test_find_median.test_find_median.executor": "Run",
     "Python tests.pytest for test_find_median.test_find_median_empty.executor": "Run",
     "Python tests.pytest for test_find_median.test_find_median_one_number.executor": "Run",
+    "Python tests.pytest for test_is_sorted_ascending.test_is_sorted_ascending.executor": "Run",
     "Python tests.pytest in test_discussion.py.executor": "Run",
     "Python.celsius_to_fahrenheit.executor": "Run",
     "Python.discussion.executor": "Run",
@@ -107,23 +110,6 @@
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for test_celsius_to_fahrenheit.test_c_to_f" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="pythonTDDProject" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_parameters" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_celsius_to_fahrenheit.test_c_to_f&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="pytest for test_count_words.test_count_words" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
@@ -194,13 +180,30 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest for test_is_sorted_ascending.test_is_sorted_ascending" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="pythonTDDProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_is_sorted_ascending.test_is_sorted_ascending&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_is_sorted_ascending.test_is_sorted_ascending" />
         <item itemvalue="Python tests.pytest for test_find_median.test_find_median" />
         <item itemvalue="Python tests.pytest for test_find_median.test_find_median_empty" />
         <item itemvalue="Python tests.pytest for test_find_median.test_find_median_one_number" />
         <item itemvalue="Python tests.pytest for test_count_words.test_count_words" />
-        <item itemvalue="Python tests.pytest for test_celsius_to_fahrenheit.test_c_to_f" />
       </list>
     </recent_temporary>
   </component>
@@ -316,7 +319,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738763202608</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="is_sorted_ascending">
+      <option name="closed" value="true" />
+      <created>1738763388444</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1738763388444</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
