@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="853eb3b7-2178-49f9-b5cb-a364ddd78bf0" name="Changes" comment="count_words" />
+    <list default="true" id="853eb3b7-2178-49f9-b5cb-a364ddd78bf0" name="Changes" comment="count_words">
+      <change afterPath="$PROJECT_DIR$/src/find_median.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_find_median.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -80,7 +84,7 @@
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Python tests.pytest for test_count_words.test_count_words">
+  <component name="RunManager" selected="Python.main">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="pythonTDDProject" />
       <option name="ENV_FILES" value="" />
@@ -278,7 +282,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738753492295</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="count_words">
+      <option name="closed" value="true" />
+      <created>1738759763063</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1738759763063</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -290,16 +302,5 @@
     <MESSAGE value="celsius_to_fahrenheit" />
     <MESSAGE value="count_words" />
     <option name="LAST_COMMIT_MESSAGE" value="count_words" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/tests/test_count_words.py</url>
-          <line>12</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
