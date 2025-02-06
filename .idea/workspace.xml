@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="853eb3b7-2178-49f9-b5cb-a364ddd78bf0" name="Changes" comment="autocomplete_list in main">
-      <change afterPath="$PROJECT_DIR$/src/multiplication_table.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_multiplication_table.py" afterDir="false" />
+    <list default="true" id="853eb3b7-2178-49f9-b5cb-a364ddd78bf0" name="Changes" comment="multiplication_table">
+      <change afterPath="$PROJECT_DIR$/src/balance_lists.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_balance_lists.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_autocomplete_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_autocomplete_list.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -371,7 +370,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738773593742</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="multiplication_table">
+      <option name="closed" value="true" />
+      <created>1738836768065</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1738836768065</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -388,6 +395,7 @@
     <MESSAGE value="workspace" />
     <MESSAGE value="autocomplete_list" />
     <MESSAGE value="autocomplete_list in main" />
-    <option name="LAST_COMMIT_MESSAGE" value="autocomplete_list in main" />
+    <MESSAGE value="multiplication_table" />
+    <option name="LAST_COMMIT_MESSAGE" value="multiplication_table" />
   </component>
 </project>

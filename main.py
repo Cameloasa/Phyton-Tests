@@ -51,3 +51,5 @@ try:
     print(multiplication_table("a",1))
 except TypeError as e:
     print(f"⚠️ Warning: {e}")
+
+print("7 - Balansera listor")
