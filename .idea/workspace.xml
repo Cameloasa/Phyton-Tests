@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="853eb3b7-2178-49f9-b5cb-a364ddd78bf0" name="Changes" comment="autocomplete_list" />
+    <list default="true" id="853eb3b7-2178-49f9-b5cb-a364ddd78bf0" name="Changes" comment="autocomplete_list in main">
+      <change afterPath="$PROJECT_DIR$/src/multiplication_table.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_multiplication_table.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_autocomplete_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_autocomplete_list.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -79,6 +85,10 @@
     "Python tests.pytest for test_find_median.test_find_median_empty.executor": "Run",
     "Python tests.pytest for test_find_median.test_find_median_one_number.executor": "Run",
     "Python tests.pytest for test_is_sorted_ascending.test_is_sorted_ascending.executor": "Run",
+    "Python tests.pytest for test_multiplication_table.test_multiplication_table.executor": "Run",
+    "Python tests.pytest for test_multiplication_table.test_multiplication_table_limit_0.executor": "Run",
+    "Python tests.pytest for test_multiplication_table.test_multiplication_table_limit_negativ.executor": "Run",
+    "Python tests.pytest for test_multiplication_table.test_multiplication_table_n_0.executor": "Run",
     "Python tests.pytest in test_discussion.py.executor": "Run",
     "Python.celsius_to_fahrenheit.executor": "Run",
     "Python.discussion.executor": "Run",
@@ -114,74 +124,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_autocomplete_list.test_empty_input" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="pythonTDDProject" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_parameters" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_autocomplete_list.test_empty_input&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for test_autocomplete_list.test_empty_master_list" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="pythonTDDProject" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_parameters" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_autocomplete_list.test_empty_master_list&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for test_autocomplete_list.test_exact_match" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="pythonTDDProject" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_parameters" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_autocomplete_list.test_exact_match&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for test_autocomplete_list.test_partial_match" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="pythonTDDProject" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_parameters" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_autocomplete_list.test_partial_match&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="pytest for test_autocomplete_list.test_sensitive_case" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="pythonTDDProject" />
       <option name="ENV_FILES" value="" />
@@ -199,13 +141,81 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest for test_multiplication_table.test_multiplication_table" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="pythonTDDProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_multiplication_table.test_multiplication_table&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_multiplication_table.test_multiplication_table_limit_0" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="pythonTDDProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_multiplication_table.test_multiplication_table_limit_0&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_multiplication_table.test_multiplication_table_limit_negativ" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="pythonTDDProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_multiplication_table.test_multiplication_table_limit_negativ&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_multiplication_table.test_multiplication_table_n_0" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="pythonTDDProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_multiplication_table.test_multiplication_table_n_0&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_multiplication_table.test_multiplication_table_n_0" />
+        <item itemvalue="Python tests.pytest for test_multiplication_table.test_multiplication_table_limit_0" />
+        <item itemvalue="Python tests.pytest for test_multiplication_table.test_multiplication_table_limit_negativ" />
+        <item itemvalue="Python tests.pytest for test_multiplication_table.test_multiplication_table" />
         <item itemvalue="Python tests.pytest for test_autocomplete_list.test_sensitive_case" />
-        <item itemvalue="Python tests.pytest for test_autocomplete_list.test_empty_master_list" />
-        <item itemvalue="Python tests.pytest for test_autocomplete_list.test_empty_input" />
-        <item itemvalue="Python tests.pytest for test_autocomplete_list.test_partial_match" />
-        <item itemvalue="Python tests.pytest for test_autocomplete_list.test_exact_match" />
       </list>
     </recent_temporary>
   </component>
@@ -353,7 +363,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738773340421</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="autocomplete_list in main">
+      <option name="closed" value="true" />
+      <created>1738773593742</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1738773593742</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -369,6 +387,7 @@
     <MESSAGE value="is_sorted_ascending" />
     <MESSAGE value="workspace" />
     <MESSAGE value="autocomplete_list" />
-    <option name="LAST_COMMIT_MESSAGE" value="autocomplete_list" />
+    <MESSAGE value="autocomplete_list in main" />
+    <option name="LAST_COMMIT_MESSAGE" value="autocomplete_list in main" />
   </component>
 </project>

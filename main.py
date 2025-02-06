@@ -3,6 +3,7 @@ from src.celsius_to_fahrenheit import c_to_f
 from src.count_words import count_words
 from src.find_median import find_median
 from src.is_sorted_ascending import is_sorted_ascending
+from src.multiplication_table import multiplication_table
 
 print("1 - Omvandla Celsius(°C) till Fahrenheit(°F) c_to_f()")
 print(f"-273.15°C == {c_to_f(-273.15)}°F")
@@ -39,3 +40,14 @@ print("5 - Söka efter element i en lista")
 print(autocomplete_list("app", ["apple", "banana", "apricot", "orange"]))
 print(autocomplete_list("ap", ["apple", "banana", "apricot", "orange"]))
 print(autocomplete_list("", ["apple", "banana", "apricot", "orange"]))
+
+print("6 - Multiplikationstabellen")
+print("3 * 4 blir ==", multiplication_table(3,4))
+try:
+    print(multiplication_table(3,-1))
+except ValueError as e:
+    print(f"⚠️ Warning: {e}")
+try:
+    print(multiplication_table("a",1))
+except TypeError as e:
+    print(f"⚠️ Warning: {e}")

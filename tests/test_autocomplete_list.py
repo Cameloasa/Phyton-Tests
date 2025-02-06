@@ -2,11 +2,11 @@ from src.autocomplete_list import autocomplete_list
 
 """
 AK
-✅ Returnera en lista med förslag som börjar med texten användaren har matat in.
-✅ Var okänslig för gemener och versaler (spelar ingen roll om bokstäverna är stora eller små).
-✅ Returnera en tom lista om det inte finns några matchningar.
-✅ Hantera en tom inmatning (returnerar hela listan).
-✅ Hantera en tom lista med alternativ (returnerar tom lista).
+✔ Returnera en lista med förslag som börjar med texten användaren har matat in.
+✔ Var okänslig för gemener och versaler (spelar ingen roll om bokstäverna är stora eller små).
+✔ Returnera en tom lista om det inte finns några matchningar.
+✔ Hantera en tom inmatning (returnerar hela listan).
+✔Hantera en tom lista med alternativ (returnerar tom lista).
 """
 
 def test_autocomplete_list():
