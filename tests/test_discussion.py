@@ -177,7 +177,7 @@ def test_verify_number(w, expected):
 Om x < 5, returnera en lista med tal från 1 till x.
 Om 5 ≤ x < 10, returnera en lista med tal från 5 till x.
 Om 10 ≤ x < 15, returnera en lista med tal från 10 till x.
-Om x ≥ 15, returnera ["Out of range"].
+Om x ≥ 15, returnera [].
 ✔ Funktionen ska testas för följande ekvivalensklasser:
 x < 5: x = -1, x = 0, x = 1, x = 4
 5 ≤ x < 10: x = 5, x = 9

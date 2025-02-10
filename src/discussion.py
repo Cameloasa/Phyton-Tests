@@ -45,6 +45,7 @@ def is_true(z: bool) -> bool:
     #return z is True
     return bool(z)
 
+print(is_true(True))
 print(is_true(False))
 
 #1e. 8 < v < 16 (9-15)
@@ -71,6 +72,7 @@ print(verify_number(128))
 print(verify_number(130))
 
 #1g. if x < 5: … elif x < 10: … elif x < 15: … else
+
 print("Uppgift 1-g------------")
 def compare_and_return(x: int) -> list[int]:
     if x < 5:
