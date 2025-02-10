@@ -1,7 +1,7 @@
 import pytest
 
 from src.discussion import bigger_than_100, number_equal_with_42, calculate_length, is_true, compare_and_return, \
-    sum_list, count_vowels, find_max, find_2nd_max, verify_number
+    sum_list, count_vowels, find_max, find_2nd_max, verify_number, find_2nd_max_version_2
 
 #1a
 """
@@ -336,3 +336,15 @@ def test_find_2nd_max():
 
     # Testfall för många olika tal
     assert find_2nd_max([100, -200, 300, 50, 25]) == 100  # Många unika tal
+
+def test_find_2nd_max_version_2():
+    testdata = [1,2,4,3]
+    expected = 3
+    actual = find_2nd_max_version_2(testdata)
+    assert expected == actual
+
+def test_find_2nd_max_version_2_returner_none():
+    testdata = []
+    expected = None
+    actual = find_2nd_max_version_2(testdata)
+    assert expected == actual

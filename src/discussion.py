@@ -132,4 +132,10 @@ def find_2nd_max(numbers):
 
     return unique_numbers[1]
 
-
+def find_2nd_max_version_2(list):
+   if len(list) < 2:
+       return None
+   new_list = list.copy()
+   new_list.sort()
+   next_largest = new_list[-2]
+   return next_largest
