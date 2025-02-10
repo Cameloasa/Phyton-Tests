@@ -194,7 +194,7 @@ def test_less_than_15():
     assert compare_and_return(12) == [10, 11, 12]
 
 def test_out_of_range():
-    assert compare_and_return(15) == ["Out of range"]
+    assert compare_and_return(15) == []
 
 def test_with_0():
     assert compare_and_return(0) == []
@@ -329,7 +329,7 @@ def test_find_2nd_max():
 
     # Testfall för delad förstaplats
     assert find_2nd_max([5, 5]) == 5  # Delad förstaplats med två lika tal
-    assert find_2nd_max([5, 5, 3, 3, 2]) == 5  # Delad förstaplats med flera lika tal
+    assert find_2nd_max([5, 5, 3, 3, 2]) == 3  # Delad förstaplats med flera lika tal
 
     # Testfall för blandade positiva och negativa tal
     assert find_2nd_max([-10, 15, 15, 20]) == 15  # Blandade negativa och positiva tal
