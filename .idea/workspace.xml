@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="853eb3b7-2178-49f9-b5cb-a364ddd78bf0" name="Changes" comment="balance_lists">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/balance_lists.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/balance_lists.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_balance_lists.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_balance_lists.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/discussion.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/discussion.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_discussion.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_discussion.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +101,7 @@
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Python tests.pytest for test_balance_lists.test_edge_case_empty_list">
+  <component name="RunManager" selected="Python tests.pytest for test_discussion.test_number_equal_with_42">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="pythonTDDProject" />
       <option name="ENV_FILES" value="" />
@@ -158,7 +158,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_multiplication_table.test_multiplication_table_limit_0" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_discussion.test_bigger_than_100" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="pythonTDDProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -171,11 +171,11 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_multiplication_table.test_multiplication_table_limit_0&quot;" />
+      <option name="_new_target" value="&quot;test_discussion.test_bigger_than_100&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_multiplication_table.test_multiplication_table_limit_negativ" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_discussion.test_number_equal_with_42" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="pythonTDDProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -188,7 +188,7 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_multiplication_table.test_multiplication_table_limit_negativ&quot;" />
+      <option name="_new_target" value="&quot;test_discussion.test_number_equal_with_42&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -211,11 +211,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_discussion.test_number_equal_with_42" />
+        <item itemvalue="Python tests.pytest for test_discussion.test_bigger_than_100" />
         <item itemvalue="Python tests.pytest for test_balance_lists.test_edge_case_empty_list" />
         <item itemvalue="Python tests.pytest for test_balance_lists.test_balanced_list_remain_unchanged" />
         <item itemvalue="Python tests.pytest for test_multiplication_table.test_multiplication_table_n_0" />
-        <item itemvalue="Python tests.pytest for test_multiplication_table.test_multiplication_table_limit_0" />
-        <item itemvalue="Python tests.pytest for test_multiplication_table.test_multiplication_table_limit_negativ" />
       </list>
     </recent_temporary>
   </component>
@@ -387,7 +387,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738837437785</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="balance_lists">
+      <option name="closed" value="true" />
+      <created>1739181837559</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1739181837559</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

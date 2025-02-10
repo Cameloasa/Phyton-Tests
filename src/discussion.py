@@ -6,6 +6,7 @@ print("Uppgift 1-a------------")
 def bigger_than_100(x: int) -> bool: #type hints
    return x > 100
 
+print(bigger_than_100(-1))
 print(bigger_than_100(1))
 print(bigger_than_100(100))
 print(bigger_than_100(101))
@@ -41,7 +42,8 @@ print(calculate_length("meningar"))
 #1d. z == True
 print("Uppgift 1-d------------")
 def is_true(z: bool) -> bool:
-    return z is True
+    #return z is True
+    return bool(z)
 
 print(is_true(False))
 
@@ -77,7 +79,7 @@ def compare_and_return(x: int) -> list[int]:
         return list(range(5, x + 1))
     elif x < 15:
         return list(range(10, x + 1))
-    return ["Out of range"]
+    return []
 
 print(compare_and_return(3))
 print(compare_and_return(7))
